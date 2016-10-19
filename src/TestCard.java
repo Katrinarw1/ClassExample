@@ -13,6 +13,11 @@ public class TestCard {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // 
+        Card c1 = new Card(Card.SPADES, Card.ACE, false);
+        Card c2 = new Card(Card.HEARTS, Card.ACE, false);
+        System.out.println(c1);
+        System.out.println(c2);
+        
     }
 }

@@ -28,8 +28,6 @@ public class TestBankAccount {
 
         a1.transferFundsTo(a2, 100);
         System.out.println("A1 account: " + a1.checkFunds());
-        System.out.println("A2 account: " + a2.checkFunds());\
-        
-        
+        System.out.println("A2 account: " + a2.checkFunds());
     }
 }

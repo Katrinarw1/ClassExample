@@ -9,7 +9,7 @@
  * @author lamon
  */
 public class BankAccount {
-
+    // bank number 
     public static final int BANK_NUMBER = 10021;
     // shared between all BankAccounts
     private static int currentAccounts = 0;
